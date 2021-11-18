@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'noto sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+}
+
+.navbar {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 3.3em;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: none;
+}
+
+.navbar span {
+    color: red;
+    background: none;
+}
+
+.navbar ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+    list-style: none;
+}
+
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 1em;
+    padding: 0 .5em 0 .5em;
+    
+}
+.navbar a:hover {
+    color: red;
+    transition: .3s;
+}
+
+.hero {
+    margin: 15em 5em 5em 5em;
+    background: black;
+}
+.container {
+    color: white;
+}
+
+.container a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    margin-left: 1em;
+    text-decoration: none;
+    color: white;
+}
+.container a:hover {
+    color: red;
+    transition: .3s;
+}
+
+.container p {
+    font-size: .8em;
+    word-break: break-all;
+    width: 430px;
+    margin: 10px 0 0 30px;
+}
+.hero-cta {
+    display: table;
+}
+.hero-cta img{
+    width: 500px;
+    height: auto;
+}
+
+.container .head{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    letter-spacing: .2em;
+}
+
+.col {
+    float: left;
+}
+
+.row img{
+    margin: 3em 16.1em 1em 0;
+}
+
+.col .left {
+    margin-right: 0;
+}
+
+.top-shows {
+    background: #222222;
+    color: white;
+}
+.container-topshow {
+    height: 790px;
+}
+
+.top-shows .show-header {
+    text-align: center;
+    font-size: 35px;
+    padding: 1.5em 0 .5em 0;
+    color: white;
+}
+
+.top-shows .line {
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.top-shows .shows-item img {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.shows-item .title3 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.shows-item .subtitle3 {
+    font-size: 9px;
+    margin-left: 10px;
+    margin-top: 6px;
+    
+}
+.shows-item p {
+    word-break: normal;
+    width: 210px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.top-shows a{
+    text-decoration: none;
+    color: white;
+}
+
+.shows-item a:hover {
+    color: red;
+    transition: .3s;
+}
+
+.shows-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    margin-top: 50px;
+}
+.col-2 {
+    float: left;
+    width: 15%;
+    margin: 28.5px;
+}
+
+.row-2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.romantic-movies {
+    color: white;
+}
+
+.container-romantic-movies {
+    height: 810px;
+}
+
+.romantic-movies .romantic-movies-header {
+    text-align: center;
+    font-size: 35px;
+    padding: 1.5em 0 .5em 0;
+    color: white;
+}
+
+.romantic-movies .line {
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.romantic-movies .romantic-description {
+    word-break: normal;
+    width: 500px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.romantic-movies .romantic-movies-items img {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 10;
+}
+
+.romantic-movies-items .title {
+    font-size: 20px;
+    margin-top: -45px;
+}
+
+.romantic-movies-items .subtitle {
+    font-size: 9px;
+    margin-top: 6px;
+}
+
+.romantic-movies-items p {
+    word-break: normal;
+    width: 210px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.romantic-movies a{
+    text-decoration: none;
+    color: white;
+}
+
+.romantic-movies-items a:hover {
+    color: red;
+    transition: .3s;
+}
+
+.romantic-movies-items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.col-3 {
+    float: left;
+    width: 15%;
+    margin: 28.5px;
+}
+
+.row-3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.documentary {
+    background: #222222;
+    color: white;
+}
+
+.documentary .documentary-header {
+    text-align: center;
+    font-size: 35px;
+    padding: 1.5em 0 .5em 0;
+    color: white;
+}
+
+.documentary .line {
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.documentary .documentary-description {
+    word-break: normal;
+    width: 500px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.documentary .documentary-items img {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+.documentary-items .title4 {
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 1px;
+}
+
+.documentary-items .subtitle4 {
+    font-size: 9px;
+    margin-left: 1px;
+    margin-top: 6px;
+    
+}
+.documentary-items p {
+    word-break: normal;
+    width: 210px;
+    font-size: 15px;
+    margin-left: 1px;
+    margin-top: 15px;
+}
+
+.documentary a{
+    text-decoration: none;
+    color: white;
+}
+
+.documentary-items a:hover {
+    color: red;
+    transition: .3s;
+}
+
+.documentary-items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.col-4 {
+    float: left;
+    width: 15%;
+    margin: 28.5px;
+}
+
+.row-4::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.most-awarded {
+    background: black;
+}
+
+.container-award {
+    color: white;
+}
+
+.most-awarded-header {
+    font-size: 35px;
+    padding: 2.2em 0 .5em 0;
+    text-align: center;
+}
+.most-awarded .line {
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.most-awarded-content .line{
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.most-awarded img {
+    max-width: 100%
+}
+
+.image {
+    flex-basis: 100%;
+    margin: 50px 100px 50px 100px;
+}
+
+.text h2 {
+    font-size: 20px;
+
+}
+.text p {
+    font-size: 15px;
+}
+.text .first {
+    margin: 25px;
+}
+
+.text .second {
+    margin: 25px;
+}
+
+.text a {
+    margin: 25px;
+    border: red solid 1px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.most-awarded-content {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.text a:hover {
+    background: red;
+    transition: .3s;
+}
+
+.characters {
+    background: #222222;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.characters .line {
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.character-header {
+    font-size: 35px;
+    padding: 2.2em 0 .5em 0;
+}
+
+.characters img {
+    position: relative;
+    width: 800px;
+    height: auto;
+    margin: 50px;
+}
+.character-content p{
+    word-break: normal;
+    width: 700px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    color: white;
+    background: black;
+    padding-top: 50px;
+}
+.about-header {
+    padding: 20px 0px 10px 70px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+img {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    margin: 50px;
+}
+.my-profile {
+    flex-basis: 40%
+}
+.aboutme {
+    font-size: 15px;
+}
+
+.aboutme {
+    margin-top: -200px;
+}
+.aboutme .sub {
+    margin-top: 10px;
+}
+.aboutme-text {
+    word-break: normal;
+    width: 410px;
+}
+.aboutme p {
+    margin-top: 30px;
+}
+.about .line{
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.contact {
+    position: relative;
+    color: white;
+    background: black;
+}
+
+.contact .line{
+    position: relative;
+    border: 1px solid #FF0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .left-box {
+    background: red;
+    word-break: normal;
+    width: 300px;
+    height: 525px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    margin-top: -10px;
+}
+.left-box h1{
+    text-align: center;
+    padding: 45px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.right-box {
+    margin-top: 60px;
+}
+
+.form-container {
+    width: 40em;
+    height: 35em;
+    background: #222222;
+    position: relative;
+    padding: 30px 50px 0 50px;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+
+input {
+	outline: none;
+	border: none;
+    background: none;
+    border-bottom: white solid 1px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+textarea {
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: white solid 1px;
+    width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 300px;
+    max-width: 300px;
+    color: white;
+}
+
+.button {
+    background: red;
+    border: none;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: white;
+}
+.button:hover {
+    color: rgb(102, 102, 102);
+    transition: .3s;
+}
+
+.footer {
+    background: #222222;
+}
+.social-media {
+    color: white;
+    padding: 50px;
+    margin-right: 400px;
+    margin-left: 50px;
+}
+.social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+.social-media span {
+    color: red;
+}
+
+.social-media img {
+    height: 30px;
+    width: auto;
+    margin: 0;
+}
+
+.social-media ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.sitemap {
+    display: flex;
+    color: white;
+    justify-content: right;
+    font-size: 13px;
+}
+
+footer {
+    display: flex;
+}
+.footer-logo {
+    font-weight: bold;
+}
+
+.footer-logo:hover {
+    color: red;
+    transition: .3s;
+}
+.explore {
+    margin: 70px 70px 0 0;
+}
+
+.explore h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: -18px;
+}
+
+.explore a {
+    text-decoration: none;
+    color: white;
+}
+
+.explore a:hover {
+    color: red;
+}
+
+.content {
+    margin: 70px 70px 0 0;
+}
+
+.content h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: -18px;
+}
+.content a {
+    text-decoration: none;
+    color: white;
+}
+.content a:hover {
+    color: red;
+}
+
+.references {
+    margin: 70px 70px 0 0;
+}
+
+.references h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: -18px;
+}
+
+.references a{
+    text-decoration: none;
+    color: white;
+}
+
+.references a:hover {
+    color: red;
+}
